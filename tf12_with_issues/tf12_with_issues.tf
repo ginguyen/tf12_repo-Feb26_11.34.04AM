@@ -6,7 +6,7 @@ provider "aws" {
   region = "us-east-1"
 }
 
-resource "aws_s3_bucket" "foo" {
+resource "aws_s3_bucket" "foo2" {
   bucket = "my-tf-log-bucket"
   acl = "public-read-write"
 }
