@@ -4,6 +4,6 @@ template_type: TF
 tags:
 - pcs-config:tf12
 
-includePattern:
-- 'aws*/*.tf2'
-- 'first-class-expressions/*.tf'
+# includePattern:
+# - 'aws*/*.tf2'
+# - 'first-class-expressions/*.tf'
